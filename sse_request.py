@@ -5,9 +5,6 @@ def make_sse_request(url):
         if line:
             print(line.decode('utf-8'))
 
-def main():
+tif __name__ == '__main__':
     url = 'https://api.jarvised.net/v1/'
     make_sse_request(url)
-
-if __name__ == '__main__':
-    main()
